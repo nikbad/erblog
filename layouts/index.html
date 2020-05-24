@@ -4,9 +4,8 @@
 <div class="layui-container">
     <div class="layui-row about">
         <div class="layui-col-xs12 layui-col-sm4 layui-col-md4 about_left">
-            <img class="lazyload about_portrait" data-src="{{ .Site.Params.portrait | default "self/img/avater.jpg" }}" />
-            <h1> {{ .Site.Params.author | default "Authors"}} </h1>
-            <h2> {{ .Site.Params.description | default "Intro"}} </h2>
+            <img class="lazyload about_portrait" data-src="{{ .Site.Params.portrait | default "self/img/portrait.jpg" }}" />
+            <h2> {{ .Site.Params.author | default "Authors"}} </h2>
             
             <!-- Icons -->
             {{ if .Site.Menus.icon }}
@@ -21,7 +20,7 @@
 
         </div>
         <div class="layui-col-xs12 layui-col-sm8 layui-col-md8 about_right">
-            <h1>Biography</h1>
+            <h1>Hello</h1>
             <h2>{{ safeHTML .Site.Params.Bio }}</h2>
         </div>
     </div>

@@ -4,14 +4,14 @@
 name = "Erblog"
 license = "MIT"
 licenselink = "https://github.com/ertuil/erblog/blob/master/LICENSE.md"
-description = "A Simple Theme for blog and gallery"
-homepage = "https://github.com/ertuil/erblog"
+description = "A Simple Theme for blog and gallery / Fork from Ertuil's Erblog"
+homepage = "https://github.com/nikbad/erblog"
 tags = ["blog","personal","responsive","mobile","fast","gallery"]
 features = ["tags","simple","personality"]
 min_version = "0.41"
 
 [author]
-  name = "Ertuil"
+  name = "Ertuil / Nikolai Bader (has done some changes after fork)"
   homepage = "https://blog.ertuil.top/"
 
 [taxonomies]
